@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Flux AI | Curated Resources for Flux AI Image Generation Model</title>
+    <meta name="description" content="A curated list of awesome resources for FLUX, the state-of-the-art text-to-image model by Black Forest Labs, focusing on its growing ecosystem.">
+    <meta name="keywords" content="Flux AI, image generation, AI model, machine learning, deep learning, awesome flux">
+    <meta name="author" content="Awesome Flux AI Community">
+    <link rel="canonical" href="https://awesomeflux.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        header {
+            margin-bottom: 30px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h1 id="awesome-flux-resources-awesomehttpsawesomerebadgesvghttpsawesomere">Awesome FLUX Resources <a href="https://awesome.re" rel="noopener noreferrer" target="_blank"><img alt="Awesome" src="https://awesome.re/badge.svg"/></a></h1>
+<p>A curated list of awesome resources for FLUX, the state-of-the-art text-to-image model by Black Forest Labs, focusing on its growing ecosystem.</p>
+<p><a href="https://github.com/Eris2025/AwesomeFlux" rel="noopener noreferrer" target="_blank">View on GitHub</a></p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#awesome-flux-resources-">Awesome FLUX Resources </a>
+<ul>
+<li><a href="#contents">Contents</a></li>
+<li><a href="#official-resources">Official Resources</a></li>
+<li><a href="#models">Models</a>
+<ul>
+<li><a href="#base-models">Base Models</a></li>
+<li><a href="#fine-tuned-models-and-loras">Fine-tuned Models and Loras</a></li>
+<li><a href="#quantized-models">Quantized Models</a></li>
+</ul></li>
+<li><a href="#community-projects">Community Projects</a></li>
+<li><a href="#demos">Demos</a></li>
+<li><a href="#contributing">Contributing</a></li>
+</ul></li>
+</ul>
+<h2 id="official-resources">Official Resources</h2>
+<ul>
+<li><a href="https://github.com/black-forest-labs/flux" rel="noopener noreferrer" target="_blank">black-forest-labs/flux</a> - This repo contains minimal inference code to run text-to-image and image-to-image with our Flux latent rectified flow transformers. Official repository released by Black Forest Labs.</li>
+<li><a href="https://blackforestlabs.ai/" rel="noopener noreferrer" target="_blank">Black Forest Labs</a> - Black Forest Labs official website.</li>
+</ul>
+<h2 id="models">Models</h2>
+<h3 id="base-models">Base Models</h3>
+<ul>
+<li><a href="https://huggingface.co/black-forest-labs/FLUX.1-dev" rel="noopener noreferrer" target="_blank">black-forest-labs/FLUX.1-dev</a> - FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. Official model repository.</li>
+<li><a href="https://huggingface.co/black-forest-labs/FLUX.1-schnell" rel="noopener noreferrer" target="_blank">black-forest-labs/FLUX.1-schnell</a> - FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. Official model repository.</li>
+<li>black-forest-labs/FLUX.1-pro - Only available via API.</li>
+</ul>
+<h3 id="fine-tuned-models-and-loras">Fine-tuned Models and Loras</h3>
+<ul>
+<li><a href="https://huggingface.co/XLabs-AI/flux-RealismLora" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-RealismLora</a> - provides a checkpoint with trained LoRA photorealism for FLUX.1-dev model by Black Forest Labs.</li>
+<li><a href="https://huggingface.co/XLabs-AI/flux-controlnet-collections" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-controlnet-collections</a> - This repository provides a collection of ControlNet checkpoints for FLUX.1-dev model by Black Forest Labs.</li>
+<li><a href="https://huggingface.co/XLabs-AI/flux-controlnet-canny" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-controlnet-canny</a> - This repository provides a checkpoint with trained ControlNet Canny model for FLUX.1-dev model by Black Forest Labs.</li>
+<li><a href="https://huggingface.co/alvdansen/frosting_lane_flux" rel="noopener noreferrer" target="_blank">alvdansen/frosting<em>lane</em>flux</a> - Frosting Lane Flux Lora.</li>
+<li><a href="https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny" rel="noopener noreferrer" target="_blank">InstantX/FLUX.1-dev-Controlnet-Canny</a> - FLUX.1-dev ControlNet Canny model proposed and maintained by the InstantX team.</li>
+<li><a href="https://huggingface.co/sayakpaul/FLUX.1-merged" rel="noopener noreferrer" target="_blank">sayakpaul/FLUX.1-merged</a> - This repository provides the merged params for black-forest-labs/FLUX.1-dev and black-forest-labs/FLUX.1-schnell.</li>
+</ul>
+<h3 id="quantized-models">Quantized Models</h3>
+<ul>
+<li><a href="https://huggingface.co/city96/FLUX.1-dev-gguf" rel="noopener noreferrer" target="_blank">city96/FLUX.1-dev-gguf</a> - This is a direct GGUF conversion of black-forest-labs/FLUX.1-dev.</li>
+<li><a href="https://huggingface.co/cocktailpeanut/flux1-merged-q8" rel="noopener noreferrer" target="_blank">cocktailpeanut/flux1-merged-q8</a></li>
+<li><a href="https://huggingface.co/cocktailpeanut/flux1-schnell-q8" rel="noopener noreferrer" target="_blank">cocktailpeanut/flux1-schnell-q8</a></li>
+<li><a href="https://huggingface.co/cocktailpeanut/flux1-schnell-qint8" rel="noopener noreferrer" target="_blank">cocktailpeanut/flux1-schnell-qint8</a></li>
+</ul>
+<h2 id="community-projects">Community Projects</h2>
+<ul>
+<li><a href="https://github.com/XLabs-AI/x-flux" rel="noopener noreferrer" target="_blank">XLabs-AI/x-flux</a> - This repository provides training scripts for Flux model by Black Forest Labs.</li>
+<li><a href="https://github.com/filipstrand/mflux" rel="noopener noreferrer" target="_blank">filipstrand/mflux</a> - MFLUX (MacFLUX) is a line-by-line port of the FLUX implementation in the Huggingface Diffusers library to Apple MLX. Run the powerful FLUX models from Black Forest Labs locally on your Mac.</li>
+<li><a href="https://github.com/camenduru/flux-jupyter" rel="noopener noreferrer" target="_blank">camenduru/flux-jupyter</a> - Jupyter Notebooks to run FLUX models.</li>
+<li><a href="https://github.com/XLabs-AI/x-flux-comfyui" rel="noopener noreferrer" target="_blank">XLabs-AI/x-flux-comfyui</a> - Flux ComfyUI nodes.</li>
+<li><a href="https://github.com/ataylorm/FluxAIGridComparisons" rel="noopener noreferrer" target="_blank">ataylorm/FluxAIGridComparisons</a> - A collection of various image grids created with Flux. Things like hair styles, clothing, nationalities, ages, etc.</li>
+<li><a href="https://github.com/Ling-APE/ComfyUI-All-in-One-FluxDev-Workflow" rel="noopener noreferrer" target="_blank">Ling-APE/ComfyUI-All-in-One-FluxDev-Workflow</a> - An FluxDev workflow in ComfyUI that combines various techniques for generating images with the FluxDev model, including img-to-img and text-to-img. .</li>
+<li><a href="https://github.com/fairy-root/Flux-Prompt-Generator" rel="noopener noreferrer" target="_blank">fairy-root/Flux-Prompt-Generator</a> -  A ComfyUI node that provides a flexible and customizable prompt generator for generating detailed and creative prompts for image generation models.</li>
+</ul>
+<h2 id="demos">Demos</h2>
+<ul>
+<li><a href="https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell" rel="noopener noreferrer" target="_blank">FLUX.1-schnell</a> - Official FLUX.1 [schnell] demo on huggingface, 12B param rectified flow transformer distilled from FLUX.1 [pro] for 4 step generation.</li>
+<li><a href="https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev" rel="noopener noreferrer" target="_blank">FLUX.1-dev</a> - Official FLUX.1 [dev] demo on huggingface, 12B param rectified flow transformer guidance-distilled from FLUX.1 [pro].</li>
+<li><a href="https://huggingface.co/spaces/multimodalart/FLUX.1-merged" rel="noopener noreferrer" target="_blank">FLUX.1-merged</a> - Merge by Sayak Paul of 2 of the 12B param rectified flow transformers FLUX.1 [dev] and FLUX.1 [schnell] by Black Forest Labs.</li>
+<li><a href="https://huggingface.co/spaces/SkalskiP/FLUX.1-inpaint" rel="noopener noreferrer" target="_blank">FLUX.1-inpaint</a></li>
+<li><a href="https://huggingface.co/spaces/multimodalart/flux-lora-the-explorer" rel="noopener noreferrer" target="_blank">FLUX LoRA the Explorer</a></li>
+<li><a href="https://huggingface.co/spaces/gokaygokay/FLUX-Prompt-Generator" rel="noopener noreferrer" target="_blank">FLUX Prompt Generator</a> - Create long prompts from images or simple words. Enhance your short prompts with prompt enhancer.</li>
+<li><a href="https://huggingface.co/spaces/DamarJati/FLUX.1-RealismLora" rel="noopener noreferrer" target="_blank">Flux RealismLora Image Generator</a></li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions welcome! Read the <a href="CONTRIBUTING.md" rel="noopener noreferrer" target="_blank">contribution guidelines</a> first.</p>
+
+        </main>
+        <footer>
+            <p>© 2023 AwesomeFlux.com. All rights reserved.</p>
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Awesome Flux AI",
+      "description": "A curated list of awesome resources for FLUX, the state-of-the-art text-to-image model by Black Forest Labs, focusing on its growing ecosystem.",
+      "url": "https://awesomeflux.com"
+    }
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
