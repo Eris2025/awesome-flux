@@ -10,7 +10,9 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
   - [Contents](#contents)
   - [Official Resources](#official-resources)
   - [Models](#models)
-    - [Fine-tuned Models and Loras](#fine-tuned-models-and-loras)
+    - [Fine-tuned Models](#fine-tuned-models)
+    - [Controlnet Models](#controlnet-models)
+    - [Loras](#loras)
     - [Quantized Models](#quantized-models)
     - [Base Models API](#base-models-api)
   - [Community Projects](#community-projects)
@@ -27,14 +29,30 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 
 ## Models
 
-### Fine-tuned Models and Loras
+### Fine-tuned Models
 
-- [XLabs-AI/flux-RealismLora](https://huggingface.co/XLabs-AI/flux-RealismLora) - provides a checkpoint with trained LoRA photorealism for FLUX.1-dev model by Black Forest Labs.
+- [sayakpaul/FLUX.1-merged](https://huggingface.co/sayakpaul/FLUX.1-merged) - This repository provides the merged params for black-forest-labs/FLUX.1-dev and black-forest-labs/FLUX.1-schnell.
+
+### Controlnet Models
+
 - [XLabs-AI/flux-controlnet-collections](https://huggingface.co/XLabs-AI/flux-controlnet-collections) - This repository provides a collection of ControlNet checkpoints for FLUX.1-dev model by Black Forest Labs.
 - [XLabs-AI/flux-controlnet-canny](https://huggingface.co/XLabs-AI/flux-controlnet-canny) - This repository provides a checkpoint with trained ControlNet Canny model for FLUX.1-dev model by Black Forest Labs.
-- [alvdansen/frosting_lane_flux](https://huggingface.co/alvdansen/frosting_lane_flux) - Frosting Lane Flux Lora.
 - [InstantX/FLUX.1-dev-Controlnet-Canny](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny) - FLUX.1-dev ControlNet Canny model proposed and maintained by the InstantX team.
-- [sayakpaul/FLUX.1-merged](https://huggingface.co/sayakpaul/FLUX.1-merged) - This repository provides the merged params for black-forest-labs/FLUX.1-dev and black-forest-labs/FLUX.1-schnell.
+
+### Loras
+
+- [XLabs-AI/flux-RealismLora](https://huggingface.co/XLabs-AI/flux-RealismLora) - provides a checkpoint with trained LoRA photorealism for FLUX.1-dev model by Black Forest Labs.
+- [alvdansen/frosting_lane_flux](https://huggingface.co/alvdansen/frosting_lane_flux) - Frosting Lane Flux Lora.
+- [alvdansen/softserve_anime](https://huggingface.co/alvdansen/softserve_anime)
+- [davisbro/half_illustration](https://huggingface.co/davisbro/half_illustration)
+- [Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style](https://huggingface.co/Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style)
+- [linoyts/yarn_art_Flux_LoRA](https://huggingface.co/linoyts/yarn_art_Flux_LoRA)
+- [kudzueye/Boreal](https://huggingface.co/kudzueye/Boreal)
+- [XLabs-AI/flux-lora-collection](https://huggingface.co/XLabs-AI/flux-lora-collection)
+- [martintomov/retrofuturism-flux](https://huggingface.co/martintomov/retrofuturism-flux)
+- [dataautogpt3/FLUX-SyntheticAnime](https://huggingface.co/dataautogpt3/FLUX-SyntheticAnime)
+- [veryVANYA/ps1-style-flux](https://huggingface.co/veryVANYA/ps1-style-flux)
+- [multimodalart/flux-tarot-v1](https://huggingface.co/multimodalart/flux-tarot-v1)
 
 ### Quantized Models
 
@@ -45,25 +63,9 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 
 ### Base Models API
 
-Replicate:
-
-- [flux collection](https://replicate.com/collections/flux)
-- [flux pro](https://replicate.com/black-forest-labs/flux-pro)
-- [flux dev](https://replicate.com/black-forest-labs/flux-dev)
-- [flux schnell](https://replicate.com/black-forest-labs/flux-schnell)
-
-FAL:
-
-- [flux pro](https://fal.ai/models/fal-ai/flux-pro)
-- [flux dev](https://fal.ai/models/fal-ai/flux/dev)
-- [flux schnell](https://fal.ai/models/fal-ai/flux/schnell)
-
-Mystic:
-
-- [black-forest-labs collection](https://www.mystic.ai/black-forest-labs)
-- [flux pro](https://www.mystic.ai/black-forest-labs/flux1-pro)
-- [flux dev](https://www.mystic.ai/black-forest-labs/flux1-dev)
-- [flux schnell](https://www.mystic.ai/black-forest-labs/flux1-schnell)
+- flux pro: [replicate](https://replicate.com/black-forest-labs/flux-pro)、[fal](https://fal.ai/models/fal-ai/flux-pro)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-pro)
+- flux dev: [replicate](https://replicate.com/black-forest-labs/flux-dev)、[fal](https://fal.ai/models/fal-ai/flux/dev)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-dev)
+- flux schnell: [replicate](https://replicate.com/black-forest-labs/flux-schnell)、[fal](https://fal.ai/models/fal-ai/flux/schnell)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-schnell)
 
 ## Community Projects
 

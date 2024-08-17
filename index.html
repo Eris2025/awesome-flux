@@ -76,12 +76,12 @@
 <ul>
 <li><a href="#contents">Contents</a></li>
 <li><a href="#official-resources">Official Resources</a></li>
-<li><a href="#models">Models</a>
-<ul>
-<li><a href="#fine-tuned-models-and-loras">Fine-tuned Models and Loras</a></li>
+<li><a href="#models">Models</a></li>
+<li><a href="#fine-tuned-models">Fine-tuned Models</a></li>
+<li><a href="#controlnet-models">Controlnet Models</a></li>
+<li><a href="#loras">Loras</a></li>
 <li><a href="#quantized-models">Quantized Models</a></li>
 <li><a href="#base-models-api">Base Models API</a></li>
-</ul></li>
 <li><a href="#community-projects">Community Projects</a></li>
 <li><a href="#demos">Demos</a></li>
 <li><a href="#contributing">Contributing</a></li>
@@ -96,14 +96,30 @@
 <li><a href="https://huggingface.co/black-forest-labs/FLUX.1-schnell" rel="noopener noreferrer" target="_blank">FLUX.1-schnell</a> - Official model repository. guidance and step-distilled variant.</li>
 </ul>
 <h2 id="models">Models</h2>
-<h3 id="fine-tuned-models-and-loras">Fine-tuned Models and Loras</h3>
+<h3 id="fine-tuned-models">Fine-tuned Models</h3>
 <ul>
-<li><a href="https://huggingface.co/XLabs-AI/flux-RealismLora" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-RealismLora</a> - provides a checkpoint with trained LoRA photorealism for FLUX.1-dev model by Black Forest Labs.</li>
+<li><a href="https://huggingface.co/sayakpaul/FLUX.1-merged" rel="noopener noreferrer" target="_blank">sayakpaul/FLUX.1-merged</a> - This repository provides the merged params for black-forest-labs/FLUX.1-dev and black-forest-labs/FLUX.1-schnell.</li>
+</ul>
+<h3 id="controlnet-models">Controlnet Models</h3>
+<ul>
 <li><a href="https://huggingface.co/XLabs-AI/flux-controlnet-collections" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-controlnet-collections</a> - This repository provides a collection of ControlNet checkpoints for FLUX.1-dev model by Black Forest Labs.</li>
 <li><a href="https://huggingface.co/XLabs-AI/flux-controlnet-canny" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-controlnet-canny</a> - This repository provides a checkpoint with trained ControlNet Canny model for FLUX.1-dev model by Black Forest Labs.</li>
-<li><a href="https://huggingface.co/alvdansen/frosting_lane_flux" rel="noopener noreferrer" target="_blank">alvdansen/frosting<em>lane</em>flux</a> - Frosting Lane Flux Lora.</li>
 <li><a href="https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny" rel="noopener noreferrer" target="_blank">InstantX/FLUX.1-dev-Controlnet-Canny</a> - FLUX.1-dev ControlNet Canny model proposed and maintained by the InstantX team.</li>
-<li><a href="https://huggingface.co/sayakpaul/FLUX.1-merged" rel="noopener noreferrer" target="_blank">sayakpaul/FLUX.1-merged</a> - This repository provides the merged params for black-forest-labs/FLUX.1-dev and black-forest-labs/FLUX.1-schnell.</li>
+</ul>
+<h3 id="loras">Loras</h3>
+<ul>
+<li><a href="https://huggingface.co/XLabs-AI/flux-RealismLora" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-RealismLora</a> - provides a checkpoint with trained LoRA photorealism for FLUX.1-dev model by Black Forest Labs.</li>
+<li><a href="https://huggingface.co/alvdansen/frosting_lane_flux" rel="noopener noreferrer" target="_blank">alvdansen/frosting<em>lane</em>flux</a> - Frosting Lane Flux Lora.</li>
+<li><a href="https://huggingface.co/alvdansen/softserve_anime" rel="noopener noreferrer" target="_blank">alvdansen/softserve_anime</a></li>
+<li><a href="https://huggingface.co/davisbro/half_illustration" rel="noopener noreferrer" target="_blank">davisbro/half_illustration</a></li>
+<li><a href="https://huggingface.co/Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style" rel="noopener noreferrer" target="_blank">Norod78/Flux<em>1</em>Dev<em>LoRA</em>Paper-Cutout-Style</a></li>
+<li><a href="https://huggingface.co/linoyts/yarn_art_Flux_LoRA" rel="noopener noreferrer" target="_blank">linoyts/yarn<em>art</em>Flux_LoRA</a></li>
+<li><a href="https://huggingface.co/kudzueye/Boreal" rel="noopener noreferrer" target="_blank">kudzueye/Boreal</a></li>
+<li><a href="https://huggingface.co/XLabs-AI/flux-lora-collection" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-lora-collection</a></li>
+<li><a href="https://huggingface.co/martintomov/retrofuturism-flux" rel="noopener noreferrer" target="_blank">martintomov/retrofuturism-flux</a></li>
+<li><a href="https://huggingface.co/dataautogpt3/FLUX-SyntheticAnime" rel="noopener noreferrer" target="_blank">dataautogpt3/FLUX-SyntheticAnime</a></li>
+<li><a href="https://huggingface.co/veryVANYA/ps1-style-flux" rel="noopener noreferrer" target="_blank">veryVANYA/ps1-style-flux</a></li>
+<li><a href="https://huggingface.co/multimodalart/flux-tarot-v1" rel="noopener noreferrer" target="_blank">multimodalart/flux-tarot-v1</a></li>
 </ul>
 <h3 id="quantized-models">Quantized Models</h3>
 <ul>
@@ -113,25 +129,10 @@
 <li><a href="https://huggingface.co/cocktailpeanut/flux1-schnell-qint8" rel="noopener noreferrer" target="_blank">cocktailpeanut/flux1-schnell-qint8</a></li>
 </ul>
 <h3 id="base-models-api">Base Models API</h3>
-<p>Replicate:</p>
 <ul>
-<li><a href="https://replicate.com/collections/flux" rel="noopener noreferrer" target="_blank">flux collection</a></li>
-<li><a href="https://replicate.com/black-forest-labs/flux-pro" rel="noopener noreferrer" target="_blank">flux pro</a></li>
-<li><a href="https://replicate.com/black-forest-labs/flux-dev" rel="noopener noreferrer" target="_blank">flux dev</a></li>
-<li><a href="https://replicate.com/black-forest-labs/flux-schnell" rel="noopener noreferrer" target="_blank">flux schnell</a></li>
-</ul>
-<p>FAL:</p>
-<ul>
-<li><a href="https://fal.ai/models/fal-ai/flux-pro" rel="noopener noreferrer" target="_blank">flux pro</a></li>
-<li><a href="https://fal.ai/models/fal-ai/flux/dev" rel="noopener noreferrer" target="_blank">flux dev</a></li>
-<li><a href="https://fal.ai/models/fal-ai/flux/schnell" rel="noopener noreferrer" target="_blank">flux schnell</a></li>
-</ul>
-<p>Mystic:</p>
-<ul>
-<li><a href="https://www.mystic.ai/black-forest-labs" rel="noopener noreferrer" target="_blank">black-forest-labs collection</a></li>
-<li><a href="https://www.mystic.ai/black-forest-labs/flux1-pro" rel="noopener noreferrer" target="_blank">flux pro</a></li>
-<li><a href="https://www.mystic.ai/black-forest-labs/flux1-dev" rel="noopener noreferrer" target="_blank">flux dev</a></li>
-<li><a href="https://www.mystic.ai/black-forest-labs/flux1-schnell" rel="noopener noreferrer" target="_blank">flux schnell</a></li>
+<li>flux pro: <a href="https://replicate.com/black-forest-labs/flux-pro" rel="noopener noreferrer" target="_blank">replicate</a>、<a href="https://fal.ai/models/fal-ai/flux-pro" rel="noopener noreferrer" target="_blank">fal</a>、<a href="https://www.mystic.ai/black-forest-labs/flux1-pro" rel="noopener noreferrer" target="_blank">mystic</a></li>
+<li>flux dev: <a href="https://replicate.com/black-forest-labs/flux-dev" rel="noopener noreferrer" target="_blank">replicate</a>、<a href="https://fal.ai/models/fal-ai/flux/dev" rel="noopener noreferrer" target="_blank">fal</a>、<a href="https://www.mystic.ai/black-forest-labs/flux1-dev" rel="noopener noreferrer" target="_blank">mystic</a></li>
+<li>flux schnell: <a href="https://replicate.com/black-forest-labs/flux-schnell" rel="noopener noreferrer" target="_blank">replicate</a>、<a href="https://fal.ai/models/fal-ai/flux/schnell" rel="noopener noreferrer" target="_blank">fal</a>、<a href="https://www.mystic.ai/black-forest-labs/flux1-schnell" rel="noopener noreferrer" target="_blank">mystic</a></li>
 </ul>
 <h2 id="community-projects">Community Projects</h2>
 <ul>
