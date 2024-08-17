@@ -10,9 +10,9 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
   - [Contents](#contents)
   - [Official Resources](#official-resources)
   - [Models](#models)
-    - [Base Models](#base-models)
     - [Fine-tuned Models and Loras](#fine-tuned-models-and-loras)
     - [Quantized Models](#quantized-models)
+    - [Base Models API](#base-models-api)
   - [Community Projects](#community-projects)
   - [Demos](#demos)
   - [Contributing](#contributing)
@@ -21,14 +21,11 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 
 - [black-forest-labs/flux](https://github.com/black-forest-labs/flux) - This repo contains minimal inference code to run text-to-image and image-to-image with our Flux latent rectified flow transformers. Official repository released by Black Forest Labs.
 - [Black Forest Labs](https://blackforestlabs.ai/) - Black Forest Labs official website.
+- FLUX.1 [pro] -  the base model, available via API. API available on Replicate, FAL and Mystic.
+- [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) - Official model repository. guidance-distilled variant.
+- [FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) - Official model repository. guidance and step-distilled variant.
 
 ## Models
-
-### Base Models
-
-- [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) - FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. Official model repository.
-- [black-forest-labs/FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) - FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. Official model repository.
-- black-forest-labs/FLUX.1-pro - Only available via API.
 
 ### Fine-tuned Models and Loras
 
@@ -45,6 +42,28 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 - [cocktailpeanut/flux1-merged-q8](https://huggingface.co/cocktailpeanut/flux1-merged-q8)
 - [cocktailpeanut/flux1-schnell-q8](https://huggingface.co/cocktailpeanut/flux1-schnell-q8)
 - [cocktailpeanut/flux1-schnell-qint8](https://huggingface.co/cocktailpeanut/flux1-schnell-qint8)
+
+### Base Models API
+
+Replicate:
+
+- [flux collection](https://replicate.com/collections/flux)
+- [flux pro](https://replicate.com/black-forest-labs/flux-pro)
+- [flux dev](https://replicate.com/black-forest-labs/flux-dev)
+- [flux schnell](https://replicate.com/black-forest-labs/flux-schnell)
+
+FAL:
+
+- [flux pro](https://fal.ai/models/fal-ai/flux-pro)
+- [flux dev](https://fal.ai/models/fal-ai/flux/dev)
+- [flux schnell](https://fal.ai/models/fal-ai/flux/schnell)
+
+Mystic:
+
+- [black-forest-labs collection](https://www.mystic.ai/black-forest-labs)
+- [flux pro](https://www.mystic.ai/black-forest-labs/flux1-pro)
+- [flux dev](https://www.mystic.ai/black-forest-labs/flux1-dev)
+- [flux schnell](https://www.mystic.ai/black-forest-labs/flux1-schnell)
 
 ## Community Projects
 
@@ -68,4 +87,4 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 
 ## Contributing
 
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Read the [contribution guidelines](https://github.com/Eris2025/awesome-flux/blob/main/.github/CONTRIBUTING.md) first.

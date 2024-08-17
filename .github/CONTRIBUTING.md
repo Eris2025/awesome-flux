@@ -7,7 +7,7 @@ Thank you for your interest in contributing to Awesome Flux! We appreciate your 
 1. Fork the repository.
 2. Add your resource to README.md. Please keep the following in mind:
    - Add the link: `* [Project-name](http://example.com/) - A short description ends with a period.`
-   - Add it to the relevant category. If you're not sure, ask in an issue.
+   - Add it to the relevant category.
    - Keep descriptions short and simple, but descriptive.
    - Check your spelling and grammar.
    - Make sure your text editor is set to remove trailing whitespace.
