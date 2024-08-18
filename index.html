@@ -67,25 +67,27 @@
 <body>
     <div class="container">
         <main>
-            <h1 id="awesome-flux-resources-awesomehttpsawesomerebadgesvghttpsawesomere">Awesome FLUX Resources <a href="https://awesome.re" rel="noopener noreferrer" target="_blank"><img alt="Awesome" src="https://awesome.re/badge.svg"/></a></h1>
+            <h1 id="awesome-flux-resources">Awesome FLUX Resources <a href="https://awesome.re" rel="noopener noreferrer" target="_blank"><img alt="Awesome" src="https://awesome.re/badge.svg"/></a></h1>
 <p>A curated list of awesome resources for FLUX, the state-of-the-art text-to-image model by Black Forest Labs, focusing on its growing ecosystem.</p>
 <p><a href="https://github.com/Eris2025/AwesomeFlux" rel="noopener noreferrer" target="_blank">View on GitHub</a></p>
 <h2 id="contents">Contents</h2>
 <ul>
-<li><a href="#awesome-flux-resources-">Awesome FLUX Resources </a>
-<ul>
+<li><a href="#awesome-flux-resources-">Awesome FLUX Resources </a></li>
 <li><a href="#contents">Contents</a></li>
 <li><a href="#official-resources">Official Resources</a></li>
-<li><a href="#models">Models</a></li>
+<li><a href="#models">Models</a><ul>
 <li><a href="#fine-tuned-models">Fine-tuned Models</a></li>
 <li><a href="#controlnet-models">Controlnet Models</a></li>
 <li><a href="#loras">Loras</a></li>
 <li><a href="#quantized-models">Quantized Models</a></li>
 <li><a href="#base-models-api">Base Models API</a></li>
+<li><a href="#lora-training">Lora Training</a></li>
+</ul>
+</li>
 <li><a href="#community-projects">Community Projects</a></li>
 <li><a href="#demos">Demos</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
 <li><a href="#contributing">Contributing</a></li>
-</ul></li>
 </ul>
 <h2 id="official-resources">Official Resources</h2>
 <ul>
@@ -109,11 +111,11 @@
 <h3 id="loras">Loras</h3>
 <ul>
 <li><a href="https://huggingface.co/XLabs-AI/flux-RealismLora" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-RealismLora</a> - provides a checkpoint with trained LoRA photorealism for FLUX.1-dev model by Black Forest Labs.</li>
-<li><a href="https://huggingface.co/alvdansen/frosting_lane_flux" rel="noopener noreferrer" target="_blank">alvdansen/frosting<em>lane</em>flux</a> - Frosting Lane Flux Lora.</li>
+<li><a href="https://huggingface.co/alvdansen/frosting_lane_flux" rel="noopener noreferrer" target="_blank">alvdansen/frosting_lane_flux</a> - Frosting Lane Flux Lora.</li>
 <li><a href="https://huggingface.co/alvdansen/softserve_anime" rel="noopener noreferrer" target="_blank">alvdansen/softserve_anime</a></li>
 <li><a href="https://huggingface.co/davisbro/half_illustration" rel="noopener noreferrer" target="_blank">davisbro/half_illustration</a></li>
-<li><a href="https://huggingface.co/Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style" rel="noopener noreferrer" target="_blank">Norod78/Flux<em>1</em>Dev<em>LoRA</em>Paper-Cutout-Style</a></li>
-<li><a href="https://huggingface.co/linoyts/yarn_art_Flux_LoRA" rel="noopener noreferrer" target="_blank">linoyts/yarn<em>art</em>Flux_LoRA</a></li>
+<li><a href="https://huggingface.co/Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style" rel="noopener noreferrer" target="_blank">Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style</a></li>
+<li><a href="https://huggingface.co/linoyts/yarn_art_Flux_LoRA" rel="noopener noreferrer" target="_blank">linoyts/yarn_art_Flux_LoRA</a></li>
 <li><a href="https://huggingface.co/kudzueye/Boreal" rel="noopener noreferrer" target="_blank">kudzueye/Boreal</a></li>
 <li><a href="https://huggingface.co/XLabs-AI/flux-lora-collection" rel="noopener noreferrer" target="_blank">XLabs-AI/flux-lora-collection</a></li>
 <li><a href="https://huggingface.co/martintomov/retrofuturism-flux" rel="noopener noreferrer" target="_blank">martintomov/retrofuturism-flux</a></li>
@@ -133,6 +135,13 @@
 <li>flux pro: <a href="https://replicate.com/black-forest-labs/flux-pro" rel="noopener noreferrer" target="_blank">replicate</a>、<a href="https://fal.ai/models/fal-ai/flux-pro" rel="noopener noreferrer" target="_blank">fal</a>、<a href="https://www.mystic.ai/black-forest-labs/flux1-pro" rel="noopener noreferrer" target="_blank">mystic</a></li>
 <li>flux dev: <a href="https://replicate.com/black-forest-labs/flux-dev" rel="noopener noreferrer" target="_blank">replicate</a>、<a href="https://fal.ai/models/fal-ai/flux/dev" rel="noopener noreferrer" target="_blank">fal</a>、<a href="https://www.mystic.ai/black-forest-labs/flux1-dev" rel="noopener noreferrer" target="_blank">mystic</a></li>
 <li>flux schnell: <a href="https://replicate.com/black-forest-labs/flux-schnell" rel="noopener noreferrer" target="_blank">replicate</a>、<a href="https://fal.ai/models/fal-ai/flux/schnell" rel="noopener noreferrer" target="_blank">fal</a>、<a href="https://www.mystic.ai/black-forest-labs/flux1-schnell" rel="noopener noreferrer" target="_blank">mystic</a></li>
+</ul>
+<h3 id="lora-training">Lora Training</h3>
+<ul>
+<li><a href="https://colab.research.google.com/drive/1r09aImgL1YhQsJgsLWnb67-bjTV88-W0" rel="noopener noreferrer" target="_blank">Train on Google Colab</a> - Training LoRA on Google Colab.</li>
+<li><a href="https://replicate.com/lucataco/ai-toolkit/train" rel="noopener noreferrer" target="_blank">Train on Replicate</a> - Training LoRA on Replicate.</li>
+<li><a href="https://fal.ai/models/fal-ai/flux-lora-general-training?a=1" rel="noopener noreferrer" target="_blank">Train on Fal</a> - Training LoRA on FAL.</li>
+<li><a href="https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/README_flux.md" rel="noopener noreferrer" target="_blank">DreamBooth training example for FLUX.1 [dev]</a></li>
 </ul>
 <h2 id="community-projects">Community Projects</h2>
 <ul>
@@ -154,9 +163,12 @@
 <li><a href="https://huggingface.co/spaces/gokaygokay/FLUX-Prompt-Generator" rel="noopener noreferrer" target="_blank">FLUX Prompt Generator</a> - Create long prompts from images or simple words. Enhance your short prompts with prompt enhancer.</li>
 <li><a href="https://huggingface.co/spaces/DamarJati/FLUX.1-RealismLora" rel="noopener noreferrer" target="_blank">Flux RealismLora Image Generator</a></li>
 </ul>
+<h2 id="tutorials">Tutorials</h2>
+<ul>
+<li>will come soon</li>
+</ul>
 <h2 id="contributing">Contributing</h2>
 <p>Contributions welcome! Read the <a href="https://github.com/Eris2025/awesome-flux/blob/main/.github/CONTRIBUTING.md" rel="noopener noreferrer" target="_blank">contribution guidelines</a> first.</p>
-
         </main>
         <footer>
             <p>© 2023 AwesomeFlux.com. All rights reserved.</p>

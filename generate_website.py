@@ -1,4 +1,4 @@
-import markdown2
+import markdown
 from jinja2 import Template
 import re
 from bs4 import BeautifulSoup
@@ -7,22 +7,42 @@ from bs4 import BeautifulSoup
 with open('README.md', 'r') as f:
     readme_content = f.read()
 
-# Convert Markdown to HTML
-html_content = markdown2.markdown(readme_content, extras=["header-ids"])
+# Convert Markdown to HTML using python-markdown
+html_content = markdown.markdown(readme_content, extensions=['extra', 'toc'])
 
 # Modify HTML using BeautifulSoup
 soup = BeautifulSoup(html_content, 'html.parser')
+
+# Add target and rel attributes to external links
 for a in soup.find_all('a', href=True):
     if not a['href'].startswith('#'):
         a['target'] = '_blank'
         a['rel'] = 'noopener noreferrer'
 
+# Ensure proper nesting of list items in the table of contents
+toc = soup.find('div', class_='toc')
+if toc:
+    current_level = 0
+    current_ul = None
+    for li in toc.find_all('li', recursive=False):
+        level = int(li.get('class', ['level1'])[0].replace('level', ''))
+        if level > current_level:
+            new_ul = soup.new_tag('ul')
+            if current_ul:
+                current_ul.append(new_ul)
+            else:
+                li.wrap(new_ul)
+            current_ul = new_ul
+        elif level < current_level:
+            current_ul = current_ul.parent
+        current_level = level
+        current_ul.append(li)
+
 html_content = str(soup)
 
 # Extract the first paragraph as description
 description = re.search(r'<p>(.*?)</p>', html_content, re.DOTALL)
-description = description.group(
-    1) if description else "A curated list of awesome resources for Flux AI image generation model."
+description = description.group(1) if description else "A curated list of awesome resources for Flux AI image generation model."
 
 # Create an optimized HTML template with beautified CSS and JavaScript
 template = Template('''

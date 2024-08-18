@@ -15,8 +15,10 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
     - [Loras](#loras)
     - [Quantized Models](#quantized-models)
     - [Base Models API](#base-models-api)
+    - [Lora Training](#lora-training)
   - [Community Projects](#community-projects)
   - [Demos](#demos)
+  - [Tutorials](#tutorials)
   - [Contributing](#contributing)
 
 ## Official Resources
@@ -67,6 +69,13 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 - flux dev: [replicate](https://replicate.com/black-forest-labs/flux-dev)、[fal](https://fal.ai/models/fal-ai/flux/dev)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-dev)
 - flux schnell: [replicate](https://replicate.com/black-forest-labs/flux-schnell)、[fal](https://fal.ai/models/fal-ai/flux/schnell)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-schnell)
 
+### Lora Training
+
+- [Train on Google Colab](https://colab.research.google.com/drive/1r09aImgL1YhQsJgsLWnb67-bjTV88-W0) - Training LoRA on Google Colab.
+- [Train on Replicate](https://replicate.com/lucataco/ai-toolkit/train) - Training LoRA on Replicate.
+- [Train on Fal](https://fal.ai/models/fal-ai/flux-lora-general-training?a=1) - Training LoRA on FAL.
+- [DreamBooth training example for FLUX.1 [dev]](https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/README_flux.md)
+
 ## Community Projects
 
 - [XLabs-AI/x-flux](https://github.com/XLabs-AI/x-flux) - This repository provides training scripts for Flux model by Black Forest Labs.
@@ -86,6 +95,10 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 - [FLUX LoRA the Explorer](https://huggingface.co/spaces/multimodalart/flux-lora-the-explorer)
 - [FLUX Prompt Generator](https://huggingface.co/spaces/gokaygokay/FLUX-Prompt-Generator) - Create long prompts from images or simple words. Enhance your short prompts with prompt enhancer.
 - [Flux RealismLora Image Generator](https://huggingface.co/spaces/DamarJati/FLUX.1-RealismLora)
+
+## Tutorials
+
+- will come soon
 
 ## Contributing
 
