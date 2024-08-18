@@ -72,7 +72,7 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 ### Lora Training
 
 - [Train on Google Colab](https://colab.research.google.com/drive/1r09aImgL1YhQsJgsLWnb67-bjTV88-W0) - Training LoRA on Google Colab.
-- [Train on Replicate](https://replicate.com/lucataco/ai-toolkit/train) - Training LoRA on Replicate.
+- [Train on Replicate](https://replicate.com/ostris/flux-dev-lora-trainer/train) - Training LoRA on Replicate.
 - [Train on Fal](https://fal.ai/models/fal-ai/flux-lora-general-training?a=1) - Training LoRA on FAL.
 - [DreamBooth training example for FLUX.1 [dev]](https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/README_flux.md)
 
