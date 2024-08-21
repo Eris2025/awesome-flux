@@ -59,9 +59,11 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 ### Quantized Models
 
 - [city96/FLUX.1-dev-gguf](https://huggingface.co/city96/FLUX.1-dev-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-dev.
+- [city96/FLUX.1-schnell-gguf](https://huggingface.co/city96/FLUX.1-schnell-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-schnell.
 - [cocktailpeanut/flux1-merged-q8](https://huggingface.co/cocktailpeanut/flux1-merged-q8)
 - [cocktailpeanut/flux1-schnell-q8](https://huggingface.co/cocktailpeanut/flux1-schnell-q8)
 - [cocktailpeanut/flux1-schnell-qint8](https://huggingface.co/cocktailpeanut/flux1-schnell-qint8)
+- [Kijai/flux-fp8](https://huggingface.co/Kijai/flux-fp8) - float8_e4m3fn weights for FLUX.1-dev and FLUX.1-schnell.
 
 ### Base Models API
 
@@ -85,6 +87,7 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 - [ataylorm/FluxAIGridComparisons](https://github.com/ataylorm/FluxAIGridComparisons) - A collection of various image grids created with Flux. Things like hair styles, clothing, nationalities, ages, etc.
 - [Ling-APE/ComfyUI-All-in-One-FluxDev-Workflow](https://github.com/Ling-APE/ComfyUI-All-in-One-FluxDev-Workflow) - An FluxDev workflow in ComfyUI that combines various techniques for generating images with the FluxDev model, including img-to-img and text-to-img. .
 - [fairy-root/Flux-Prompt-Generator](https://github.com/fairy-root/Flux-Prompt-Generator) -  A ComfyUI node that provides a flexible and customizable prompt generator for generating detailed and creative prompts for image generation models.
+- [SplittyDev/flux1-cli](https://github.com/SplittyDev/flux1-cli) - A command-line interface for FLUX.1 inference with macOS MPS, CUDA and CPU support.
 
 ## Demos
 
