@@ -59,9 +59,11 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 ### Quantized Models
 
 - [city96/FLUX.1-dev-gguf](https://huggingface.co/city96/FLUX.1-dev-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-dev.
+- [city96/FLUX.1-schnell-gguf](https://huggingface.co/city96/FLUX.1-schnell-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-schnell.
 - [cocktailpeanut/flux1-merged-q8](https://huggingface.co/cocktailpeanut/flux1-merged-q8)
 - [cocktailpeanut/flux1-schnell-q8](https://huggingface.co/cocktailpeanut/flux1-schnell-q8)
 - [cocktailpeanut/flux1-schnell-qint8](https://huggingface.co/cocktailpeanut/flux1-schnell-qint8)
+- [Kijai/flux-fp8](https://huggingface.co/Kijai/flux-fp8) - float8_e4m3fn weights for FLUX.1-dev and FLUX.1-schnell.
 
 ### Base Models API
 
