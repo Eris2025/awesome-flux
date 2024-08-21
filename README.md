@@ -10,10 +10,10 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
   - [Contents](#contents)
   - [Official Resources](#official-resources)
   - [Models](#models)
-    - [Fine-tuned Models](#fine-tuned-models)
+    - [Fusion Models, Quantized Models](#fusion-models-quantized-models)
     - [Controlnet Models](#controlnet-models)
+    - [IP-Adapter](#ip-adapter)
     - [Loras](#loras)
-    - [Quantized Models](#quantized-models)
     - [Base Models API](#base-models-api)
     - [Lora Training](#lora-training)
   - [Community Projects](#community-projects)
@@ -31,15 +31,29 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 
 ## Models
 
-### Fine-tuned Models
+### Fusion Models, Quantized Models
 
 - [sayakpaul/FLUX.1-merged](https://huggingface.co/sayakpaul/FLUX.1-merged) - This repository provides the merged params for black-forest-labs/FLUX.1-dev and black-forest-labs/FLUX.1-schnell.
+- [city96/FLUX.1-dev-gguf](https://huggingface.co/city96/FLUX.1-dev-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-dev.
+- [city96/FLUX.1-schnell-gguf](https://huggingface.co/city96/FLUX.1-schnell-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-schnell.
+- [cocktailpeanut/flux1-merged-q8](https://huggingface.co/cocktailpeanut/flux1-merged-q8)
+- [cocktailpeanut/flux1-schnell-q8](https://huggingface.co/cocktailpeanut/flux1-schnell-q8)
+- [cocktailpeanut/flux1-schnell-qint8](https://huggingface.co/cocktailpeanut/flux1-schnell-qint8)
+- [Kijai/flux-fp8](https://huggingface.co/Kijai/flux-fp8) - float8_e4m3fn weights for FLUX.1-dev and FLUX.1-schnell.
+- [Anibaaal/Flux-Fusion-DS-merge-gguf-nf4-fp4-fp8-fp16](https://huggingface.co/Anibaaal/Flux-Fusion-DS-merge-gguf-nf4-fp4-fp8-fp16) - Merge of Schnell and Dev variants of the Flux.1 model, almost all block are set to different ratios so it's not a perfect proportion of each model. All in one versions include VAE + CLIP + T5XXL (fp8).
 
 ### Controlnet Models
 
-- [XLabs-AI/flux-controlnet-collections](https://huggingface.co/XLabs-AI/flux-controlnet-collections) - This repository provides a collection of ControlNet checkpoints for FLUX.1-dev model by Black Forest Labs.
+- [XLabs-AI/flux-controlnet-collections](https://huggingface.co/XLabs-AI/flux-controlnet-collections) - This repository provides a collection of ControlNet checkpoints for FLUX.1-dev model by Black Forest Labs. V2 version.
 - [XLabs-AI/flux-controlnet-canny](https://huggingface.co/XLabs-AI/flux-controlnet-canny) - This repository provides a checkpoint with trained ControlNet Canny model for FLUX.1-dev model by Black Forest Labs.
 - [InstantX/FLUX.1-dev-Controlnet-Canny](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny) - FLUX.1-dev ControlNet Canny model proposed and maintained by the InstantX team.
+- [XLabs-AI/flux-controlnet-hed-v3](https://huggingface.co/XLabs-AI/flux-controlnet-hed-v3) - This repository provides a Hed ControlNet checkpoint for FLUX.1-dev model by Black Forest Labs. V3 version.
+- [XLabs-AI/flux-controlnet-canny-v3](https://huggingface.co/XLabs-AI/flux-controlnet-canny-v3) - This repository provides a Canny ControlNet checkpoint for FLUX.1-dev model by Black Forest Labs. V3 version.
+- [XLabs-AI/flux-controlnet-depth-v3](https://huggingface.co/XLabs-AI/flux-controlnet-depth-v3) - This repository provides a Depth ControlNet checkpoint for FLUX.1-dev model by Black Forest Labs. V3 version.
+
+### IP-Adapter
+
+- [XLabs-AI/flux-ip-adapter](https://huggingface.co/XLabs-AI/flux-ip-adapter) - This repository provides a IP-Adapter checkpoint for FLUX.1-dev model by Black Forest Labs. v1 version.
 
 ### Loras
 
@@ -55,15 +69,6 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 - [dataautogpt3/FLUX-SyntheticAnime](https://huggingface.co/dataautogpt3/FLUX-SyntheticAnime)
 - [veryVANYA/ps1-style-flux](https://huggingface.co/veryVANYA/ps1-style-flux)
 - [multimodalart/flux-tarot-v1](https://huggingface.co/multimodalart/flux-tarot-v1)
-
-### Quantized Models
-
-- [city96/FLUX.1-dev-gguf](https://huggingface.co/city96/FLUX.1-dev-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-dev.
-- [city96/FLUX.1-schnell-gguf](https://huggingface.co/city96/FLUX.1-schnell-gguf) - This is a direct GGUF conversion of black-forest-labs/FLUX.1-schnell.
-- [cocktailpeanut/flux1-merged-q8](https://huggingface.co/cocktailpeanut/flux1-merged-q8)
-- [cocktailpeanut/flux1-schnell-q8](https://huggingface.co/cocktailpeanut/flux1-schnell-q8)
-- [cocktailpeanut/flux1-schnell-qint8](https://huggingface.co/cocktailpeanut/flux1-schnell-qint8)
-- [Kijai/flux-fp8](https://huggingface.co/Kijai/flux-fp8) - float8_e4m3fn weights for FLUX.1-dev and FLUX.1-schnell.
 
 ### Base Models API
 

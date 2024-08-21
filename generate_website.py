@@ -42,7 +42,8 @@ html_content = str(soup)
 
 # Extract the first paragraph as description
 description = re.search(r'<p>(.*?)</p>', html_content, re.DOTALL)
-description = description.group(1) if description else "A curated list of awesome resources for Flux AI image generation model."
+description = description.group(
+    1) if description else "A curated list of awesome resources for Flux AI image generation model."
 
 # Create an optimized HTML template with beautified CSS and JavaScript
 template = Template('''
@@ -117,7 +118,7 @@ template = Template('''
             {{ content }}
         </main>
         <footer>
-            <p>© 2023 AwesomeFlux.com. All rights reserved.</p>
+            <p>© 2024 AwesomeFlux.com. All rights reserved.</p>
         </footer>
     </div>
     <script type="application/ld+json">
