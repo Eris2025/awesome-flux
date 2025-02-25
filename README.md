@@ -73,7 +73,7 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 ### Base Models API
 
 - flux pro: [replicate](https://replicate.com/black-forest-labs/flux-pro)、[fal](https://fal.ai/models/fal-ai/flux-pro)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-pro)
-- flux dev: [replicate](https://replicate.com/black-forest-labs/flux-dev)、[fal](https://fal.ai/models/fal-ai/flux/dev)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-dev)
+- flux dev: [replicate](https://replicate.com/black-forest-labs/flux-dev)、[fal](https://fal.ai/models/fal-ai/flux/dev)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-dev)、[Simplismart](https://app.simplismart.ai/model-marketplace/9cf80fbd-03db-4732-99cd-d74ab7425482)
 - flux schnell: [replicate](https://replicate.com/black-forest-labs/flux-schnell)、[fal](https://fal.ai/models/fal-ai/flux/schnell)、[mystic](https://www.mystic.ai/black-forest-labs/flux1-schnell)
 
 ### Lora Training
