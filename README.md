@@ -92,6 +92,7 @@ A curated list of awesome resources for FLUX, the state-of-the-art text-to-image
 - [ataylorm/FluxAIGridComparisons](https://github.com/ataylorm/FluxAIGridComparisons) - A collection of various image grids created with Flux. Things like hair styles, clothing, nationalities, ages, etc.
 - [Ling-APE/ComfyUI-All-in-One-FluxDev-Workflow](https://github.com/Ling-APE/ComfyUI-All-in-One-FluxDev-Workflow) - An FluxDev workflow in ComfyUI that combines various techniques for generating images with the FluxDev model, including img-to-img and text-to-img. .
 - [fairy-root/Flux-Prompt-Generator](https://github.com/fairy-root/Flux-Prompt-Generator) -  A ComfyUI node that provides a flexible and customizable prompt generator for generating detailed and creative prompts for image generation models.
+- [kagura-agent/flux-prompt-gallery](https://github.com/kagura-agent/flux-prompt-gallery) - A collection of 15 free, reusable Flux prompt templates with 51 showcase images. Covers anime portraits, wallpapers, 3D icons, product photography, pixel art, and more. No LoRA needed.
 - [SplittyDev/flux1-cli](https://github.com/SplittyDev/flux1-cli) - A command-line interface for FLUX.1 inference with macOS MPS, CUDA and CPU support.
 
 ## Demos
